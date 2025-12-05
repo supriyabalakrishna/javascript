@@ -7,3 +7,5 @@ else
 {
     console.log("odd number");
 }
+let age = 90;
+age >=18 ? console.log("adult") : console.log("not adult");
