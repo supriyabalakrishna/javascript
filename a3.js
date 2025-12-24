@@ -1,0 +1,15 @@
+let n = [250,645,300,900,50];
+let name = ["Alice", "Bob", "Charlie"];
+n.push(800);
+console.log(n);
+n.push(1000);
+console.log(n);
+console.log(n.pop());
+console.log(n);
+console.log(n.toString());
+let v = name.concat(n);
+console.log(v);
+let val = n.shift();
+console.log(val);
+let r = n.slice(1,4);
+console.log(r);
